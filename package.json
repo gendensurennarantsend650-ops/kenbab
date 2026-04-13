@@ -9,7 +9,7 @@
     "lint": "next lint",
     "pages:build": "bunx @cloudflare/next-on-pages",
     "preview": "bun run pages:build && wrangler dev",
-    "deploy": "bun run pages:build && wrangler deploy"
+    "deploy": "bun run pages:build && echo '_worker.js' > .vercel/output/static/.assetsignore && wrangler deploy"
   },
   "dependencies": {
     "next": "^16.2.3",
