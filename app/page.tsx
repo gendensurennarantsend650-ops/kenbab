@@ -4,6 +4,7 @@ import MenuSection from "@/components/MenuSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
+import MobileBottomBar from "@/components/MobileBottomBar";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </main>
       <Footer />
       <CartDrawer />
+      <MobileBottomBar />
     </>
   );
 }
