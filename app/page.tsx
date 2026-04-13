@@ -4,7 +4,6 @@ import MenuSection from "@/components/MenuSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
-import OrderModal from "@/components/OrderModal";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       </main>
       <Footer />
       <CartDrawer />
-      <OrderModal />
     </>
   );
 }
