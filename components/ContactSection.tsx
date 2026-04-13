@@ -1,7 +1,7 @@
 export default function ContactSection() {
   return (
     <div className="contact-section">
-      <div>
+      <div className="contact-card">
         <div className="contact-title">Холбоо барих</div>
         <div className="contact-item">
           <div className="contact-icon">📞</div>
@@ -32,7 +32,7 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="contact-card">
         <div className="contact-title">Байршил</div>
         <div className="map-placeholder">
           <div className="map-pin">📍</div>

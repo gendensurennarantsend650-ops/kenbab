@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "Дүүрэн | Дархан-Уул аймаг",
   description: "Дархан-Уул аймгийн шилдэг хоолны газар. Бууз, цуйван, шөл — бүх зүйл шинэхэн.",
